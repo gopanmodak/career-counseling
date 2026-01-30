@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Ayesha Rahman",
+    "designation": "Senior Career Counselor",
+    "skills": "Career Assessment, Personal Counseling, Academic Guidance, Decision Making",
+    "position": "Head of Career Counseling",
+    "image": "https://i.pinimg.com/1200x/52/7e/44/527e444e4f0146cbb66df64cac80fcaa.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mr. Hasan Mahmud",
+    "designation": "Resume & Career Advisor",
+    "skills": "Resume Writing, ATS Optimization, Job Market Analysis",
+    "position": "Senior Resume Consultant",
+    "image": "https://i.pinimg.com/736x/14/63/8d/14638daaaa0e5bdc736b1613099379ca.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ms. Nusrat Jahan",
+    "designation": "Interview Coach",
+    "skills": "Mock Interviews, Communication Skills, Confidence Building",
+    "position": "Lead Interview Trainer",
+    "image": "https://i.pinimg.com/736x/fa/21/6f/fa216faf9140c9643bb69250c33a7f0f.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Prof. Kamal Hossain",
+    "designation": "Academic Career Advisor",
+    "skills": "Student Counseling, Subject Selection, Academic Planning",
+    "position": "Education & Student Guidance Specialist",
+    "image": "https://i.pinimg.com/1200x/e2/a0/fb/e2a0fb3944161dd23387fe78d967844b.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Ms. Tania Akter",
+    "designation": "Professional Branding Consultant",
+    "skills": "LinkedIn Optimization, Personal Branding, Networking Strategy",
+    "position": "Career Branding Specialist",
+    "image": "https://i.pinimg.com/736x/96/30/8a/96308ac1da414b1498b34f60bbf2d818.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mr. Fahim Chowdhury",
+    "designation": "Career Transition Consultant",
+    "skills": "Job Switching Strategy, Skill Gap Analysis, Career Roadmapping",
+    "position": "Senior Career Transition Advisor",
+    "image": "https://i.pinimg.com/736x/70/d3/b6/70d3b690144db4a6269a962af50c6c99.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ms. Saylana Islam",
+    "designation": "Freelancing Career Mentor",
+    "skills": "Freelancing Platforms, Client Acquisition, Portfolio Development",
+    "position": "Freelance Career Specialist",
+    "image": "https://i.pinimg.com/736x/48/e8/c7/48e8c7b4dd171ee1c240d2f210dc3ae9.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Ms. Farzana Rahman",
+    "designation": "Internship & Early Career Advisor",
+    "skills": "Internship Planning, Career Guidance for Students, Skill Development",
+    "position": "Junior Career Development Officer",
+    "image": "https://i.pinimg.com/736x/0f/41/a8/0f41a81aa3d40679bd4708107d977543.jpg"
+  }
+]
