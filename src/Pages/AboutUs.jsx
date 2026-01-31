@@ -6,13 +6,13 @@ const AboutUs = () => {
     <div className="bg-[#F6F1F1] p-10">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-5 my-20">
       <div>
-        <h2 className="text-[28px] font-bold mb-4 font-Lexend text-[#171A1F] w-115">
+        <h2 className="text-[28px] font-bold mb-4 font-Lexend text-[#171A1F] max-w-115">
           Providing career guidance and resources to individuals seeking
           development support.
         </h2>
       </div>
       <div>
-        <p className="text-[#000000] text-[16px] w-100">Our company has rich history of helping individuals achieve their career goals. From our humble beginnings to our current success, we have continuously evolved to met the changing needs of our clients. We take pride in our achievements look forward to assisting you on your career journey.</p>
+        <p className="text-[#000000] text-[16px] max-w-100">Our company has rich history of helping individuals achieve their career goals. From our humble beginnings to our current success, we have continuously evolved to met the changing needs of our clients. We take pride in our achievements look forward to assisting you on your career journey.</p>
       </div>
     </div>
     <MeetOur/>

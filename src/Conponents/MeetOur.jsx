@@ -15,7 +15,7 @@ const MeetOur = () => {
         <h1 className="text-6xl font-bold mb-5 font-Lexend">Meet Our</h1>
         <p className="text-2xl font-bold font-Lexend">Get to know our team of career counselors and support staff.</p>
       </div>
-      <div className="max-w-6xl mx-auto my-20 grid grid-cols-4 gap-5">
+      <div className="max-w-6xl mx-auto my-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-5">
         {team.map((team) => (
           <div key={team.id} team={team}>
             <div className="card">

@@ -3,10 +3,13 @@ import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Pages/Home";
 import AboutUs from "../Pages/AboutUs";
 import Services from "../Pages/Services";
-import ContactUs from "../Pages/ContactUs";
 import Error from "../Pages/Error";
 import Package from "../Pages/Package";
 import ReadMore from "../Pages/ReadMore";
+import Login from "../Pages/Login";
+import Register from "../Pages/Register";
+import PrivateRoutes from "../PrivateRoutes/PrivateRoutes";
+import MyProfile from "../Pages/MyProfile";
 
 export const router = createBrowserRouter([
   {
@@ -38,7 +41,9 @@ export const router = createBrowserRouter([
         
       },
       {path: "package/:id",
-element: <ReadMore />,
+element: <PrivateRoutes><ReadMore /> </PrivateRoutes>
+
+              ,
 loader: async ({ params }) => {
   const res = await fetch(`/services.json`);
   const data = await res.json();
@@ -47,7 +52,20 @@ loader: async ({ params }) => {
         
         
 
+      },
+      {
+        path: "login",
+        element: <Login />,
+      },
+      {
+        path:'register',
+        element:<Register />
+      },
+      {
+        path:'profile',
+        element:<PrivateRoutes> <MyProfile /> </PrivateRoutes>
       }
+
     ],
  
   },
